@@ -1,6 +1,6 @@
-# azcamtool
+# azcam-tool
 
-This National Instruments LabVIEW program is a GUI frontend to an *azcamserver* application.  It connects to *azcamserver* using the socket interface and controls the acquisition of images.
+This *azcam* extension implements a National Instruments LabVIEW GUI frontend to an *azcamserver* application.  It connects to *azcamserver* using the socket interface and controls the acquisition of images.
 
 It is used for laboratory image acquisition as well as astronomical observing.
 
@@ -12,9 +12,7 @@ National Instruments LabVIEW 2014 Run-time Engine is required: http://www.ni.com
 
 Typically *azcam* software is installed in subfolders of the `/azcam` folder.
 
-* `git clone https://github.com/mplesser/azcamtool`
-or
-* Download zip file and unzip to `/azcam/azcam-tool'
+* `git clone https://github.com/mplesser/azcam-tool`
 
 ## Usage
 
