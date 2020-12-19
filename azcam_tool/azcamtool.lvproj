@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="azcamtool" Type="Folder" URL="..">
+		<Item Name="azcam_tool" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
@@ -140,10 +140,10 @@
 				<Property Name="Source[0].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EA10D27E-200A-41E8-B451-808F53FE00F0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0DEFED69-448D-473D-9AEB-AED511E202B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/azcamtool/azcamtool.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/azcam_tool/azcamtool.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
