@@ -1,8 +1,11 @@
+"""
+Start AzCamTool on localhost using default port.
+"""
+
 import os
 
-# relative path
 folder = os.path.normpath((os.path.dirname(__file__)))
+exe = os.path.join(folder, "builds", "azcamtool.exe")
+s = f"start {exe} -s localhost -p 2402"
 
-exe = f"{folder}\\builds\\azcamtool.exe"
-s = "start %s -s localhost -p 2402" % exe
 os.system(s)
