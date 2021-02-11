@@ -140,7 +140,7 @@
 				<Property Name="Source[0].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0DEFED69-448D-473D-9AEB-AED511E202B4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9B061397-A061-40C2-98EA-597A7D89CADB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/azcam_tool/azcamtool.vi</Property>
